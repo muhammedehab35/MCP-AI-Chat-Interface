@@ -1,0 +1,12 @@
+# AI Model Providers
+anthropic>=0.51.0
+openai>=1.40.0
+
+# MCP (Model Control Protocol)
+mcp[cli]>=1.8.0
+
+# CLI Interface
+prompt-toolkit>=3.0.51
+
+# Configuration
+python-dotenv>=1.1.0

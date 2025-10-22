@@ -1,0 +1,24 @@
+[project]
+name = "mcp-ai-chat-interface"
+version = "0.1.0"
+description = "Interactive CLI chat application with AI models (Claude/OpenAI) using Model Control Protocol (MCP)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["mcp", "model-context-protocol", "anthropic", "openai", "cli", "chatbot", "ai-chat"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "anthropic>=0.51.0",
+    "openai>=1.40.0",
+    "mcp[cli]>=1.8.0",
+    "prompt-toolkit>=3.0.51",
+    "python-dotenv>=1.1.0",
+]
